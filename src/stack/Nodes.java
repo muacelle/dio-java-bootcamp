@@ -1,4 +1,4 @@
-package stock;
+package stack;
 
 public class Nodes {
 

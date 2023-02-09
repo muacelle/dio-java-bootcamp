@@ -1,10 +1,10 @@
-package stock;
+package stack;
 
-public class Stock {
+public class Stack {
 
     private Nodes entrada;
 
-    public Stock() {
+    public Stack() {
         this.entrada = null;
     }
 
