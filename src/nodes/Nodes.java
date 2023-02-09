@@ -1,26 +1,26 @@
 package nodes;
 
-public class Nodes {
+public class Nodes<T> {
 
-    private String content;
-    private Nodes nextNode;
+    private T content;
+    private Nodes<T> nextNode;
 
-    public Nodes(String content) {
+    public Nodes(T content) {
         this.nextNode = null;
         this.content = content;
     }
 
-    public String getContent() {
+    public T getContent() {
         return content;
     }
-    public void setContent(String content) {
+    public void setContent(T content) {
         this.content = content;
     }
 
-    public Nodes getNextNode() {
+    public Nodes<T> getNextNode() {
         return nextNode;
     }
-    public void setNextNode(Nodes nextNode) {
+    public void setNextNode(Nodes<T> nextNode) {
         this.nextNode = nextNode;
     }
 

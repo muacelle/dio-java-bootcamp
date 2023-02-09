@@ -3,10 +3,10 @@ package nodes;
 public class Main {
     public static void main(String[] args) {
 
-        Nodes no1 = new Nodes("1");
-        Nodes no2 = new Nodes("2");
-        Nodes no3 = new Nodes("3");
-        Nodes no4 = new Nodes("4");
+        Nodes<String> no1 = new Nodes("1");
+        Nodes<String> no2 = new Nodes("2");
+        Nodes<String> no3 = new Nodes("3");
+        Nodes<String> no4 = new Nodes("4");
 
         no1.setNextNode(no2);
         no2.setNextNode(no3);
